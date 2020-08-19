@@ -1,0 +1,97 @@
+dbt;
+
+dbc 2;			//Boucle qui émet du son
+
+sgo 65;
+att 10;
+sar;
+att 5;
+
+sgo 70;
+att 10;
+sar;
+att 5;
+
+sgo 75;
+att 10;
+sar;
+att 5;
+sgo 80;
+att 10;
+sar;
+att 5;
+
+fbc;
+
+dbc 2;			//Clignote la DEL en vert 3 fois sur 1500ms
+
+dal 01;			
+att 10;
+det 0;
+att 10;
+
+fbc;
+
+				//Mouvements du robot
+
+mav 128;
+att 80;
+mar;
+
+mre 128;
+att 80;
+mar;
+
+mav 128;
+trd;
+att 80;
+mar;
+
+mav 128;
+trg;
+att 80;
+mar;
+
+mre 128;
+att 80;
+mar;
+
+mav 128;
+trg;
+att 80;
+mar;
+
+dbc 2;			//Clignote la DEL en rouge 3 fois sur 1500ms
+
+dal 02;			
+att 10;
+det 0;
+att 10;
+
+fbc;
+
+dbc 2;			//Deuxieme boucle qui émet du son
+
+sgo 80;
+att 10;
+sar;
+att 5;
+
+sgo 75;
+att 10;
+sar;
+att 5;
+
+sgo 70;
+att 10;
+sar;
+att 5;
+
+sgo 65;
+att 10;
+sar;
+att 5;
+
+fbc;
+
+fin;

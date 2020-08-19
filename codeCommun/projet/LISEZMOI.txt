@@ -1,0 +1,25 @@
+Equipe 2330
+Tamer Arar
+Maroua Djaroud
+Asmae El hajla
+Guy-Frank Essome Penda
+
+Vous trouverez dans notre dossier codeCommun l'espace de travail pour le code de notre Robot.
+Il y a 2 dossiers (lib_dir et projet).
+
+- Dans le dossier projet, on y retrouve un fichier main.cpp qui regroupe la procédure établie pour le parcours du robot. Ce fichier puisera dans la librairie (dossier lib_dir) pour effectuer le parcours.
+
+- Dans lib_dir, on retrouve toutes les classes de notre projet final.
+Tout d'abord, le dossier regroupe 3 classes définant et implémentant chacun des 3 capteurs.
+Ainsi, l'initalisation et les méthodes pour le capteur de couleurs sont représentés dans CapteurCouleur.h et CapteurCouleur.cpp. 
+Également, l'initialisation et les méthodes du capteur de distance sont représentés dans CapteurDistance.h et CapteurDistance.cpp. 
+De même, l'implémentation du capteur de la ligne noir est dans Suiveur.h et Suiveur.cpp. 
+
+Ensuite, on peut retrouver dans la classe del la séquence du cercle et la séquence de l'octogone qui allument une couleur (rouge ou verte) dépendemment de la pièce trouvé.
+La séquence du carré, elle, se retrouve dans la classe son.
+
+On retrouve aussi SystemeNavigation. C'est une classe qui regroupe le parcours complet du projet final. Il est chargé de regrouper et d'appeler toutes les classes utilisés pour réussir le parcours.
+
+Finalement, les classes uart, Moteur et can sont utiles pour afficher les valeurs du robot à l'écran, mettre en marche les moteurs et convertir une donnée analogique en binaire, respectivement.
+
+
