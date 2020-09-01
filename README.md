@@ -1,5 +1,7 @@
 INF1995 -- Team #2330
-===================
+=====================
+## Demo
+![](project2.gif)
 
 ## Authors
 Sami Tamer Arar,
