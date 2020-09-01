@@ -1,7 +1,7 @@
 INF1995 -- Team #2330
 =====================
 ## Demo
-![](project2.gif)
+![](project1.gif)
 
 ## Authors
 Sami Tamer Arar,
