@@ -9,6 +9,10 @@ INF1995 -- Team #2330
 
 Code for the Robot we completely built with the ATmega324PA Microcontroller, RGB Color sensor for color detection, distance sensor for obstacles and a black/white sensor for trail detection.
 
+### Technologies
+
+C Programming Language, Linux (Fedora), Git
+
 ## Authors
 
 Sami Tamer Arar,
